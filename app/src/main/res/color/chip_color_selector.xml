@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- 24% opacity -->
-    <item android:alpha="0.24" android:color="#FF0000" android:state_checked="true"/>
-    <item android:alpha="0.80" android:color="#FF0000"/>
+    <item android:alpha="1.00" android:color="#FF0000" android:state_checked="true" android:state_last="true"/>
+    <item android:alpha="0.80" android:color="?attr/colorButtonNormal"/>
 
 </selector>

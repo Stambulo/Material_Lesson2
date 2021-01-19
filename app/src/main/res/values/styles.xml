@@ -7,4 +7,61 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+
+
+    <!-- Dark application theme. -->
+    <style name="MyDarkAppTheme" parent="ThemeOverlay.MaterialComponents.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#710319</item>
+        <item name="colorPrimaryDark">#4005C1</item>
+        <item name="colorAccent">#566DF3</item>
+        <item name="android:textColor">#3E3E40</item>
+    </style>
+
+
+
+    <!-- Dark application theme. -->
+    <style name="AppTheme.Orange" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#B9E366</item>
+        <item name="colorPrimaryDark">@android:color/holo_orange_dark</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="backgroundColor">@android:color/darker_gray</item>
+        <item name="chipBackgroundColor">@color/colorAccent</item>
+    </style>
+
+
+
+    <!-- Chip Style-->
+    <style name="Lesson2_ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_color_selector</item>
+    </style>
+
+
+
+    <!-- Floating Styles-->
+    <style name="myFabStyle">
+        <item name="backgroundTint">?colorAccent</item>
+    </style>
+
+    <style name="myBottomBarStyle">
+        <item name="backgroundTint">?colorPrimary</item>
+    </style>
+
+
+
+    <!-- Card Styles   -->
+    <style name="myCard1style">
+        <item name="cardBackgroundColor">?colorPrimary</item>
+    </style>
+
+    <style name="myCard2style">
+        <item name="cardBackgroundColor">?colorPrimaryDark</item>
+    </style>
+
+    <style name="myCard3style">
+        <item name="cardBackgroundColor">?colorAccent</item>
+    </style>
+
 </resources>
